@@ -1,10 +1,23 @@
+.logonamesearch{
+    border:2px solid black;
+    display:flex;
+    /* flex-wrap:wrap; */
+}
+#logo{
+    padding:20px;
+    height:100px;
+}
+#name{
+   padding:50px 0px;
+   margin:0px;
+   font-family: monospace;
+}
+.first{
+    background:url("first\ \(1\).webp");
+    background-size: cover;
+}
 .searchbar{
-    margin: 6%;
-    padding: 20px 20px;
-    width: 1000px;
-    height: 10px;
-    border: 2px solid black;
-    border-radius: 15px;
+    margin-left:auto;
 }
 .element{
     width: 10px;
