@@ -1,69 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 .logonamesearch{
-    border:2px solid black;
     display:flex;
-    /* flex-wrap:wrap; */
+    flex-wrap:wrap;
 }
 #logo{
-    padding:20px;
-    height:100px;
+    padding: 2px 0vh 0vh 2vh;
+    height: 17vh;
+}
+.logoname{
+    display:flex;
+    flex-wrap:wrap;
 }
 #name{
-   padding:50px 0px;
+   padding:5vh 0vh;
    margin:0px;
    font-family: monospace;
+   font-size:35px;
 }
 .first{
-    background:url("first\ \(1\).webp");
+    background:url("Images/Yellow\ \ Modern\ Webinar\ Facebook\ Post.png");
     background-size: cover;
+    height:100vh;
+    width:100%;
+}
+.sb {
+    padding: 9px;
+    margin:-46px 0px;
+    border: 2px solid black;
+    border-radius: 100px;
+    font-size: 37px;
+    position: absolute;
+    top: 80px;
+    left: 769px;
+}
+.but{
+    height: 7%;
+    width: 9%;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 1255px;
+    background-color:rgb(235, 20, 67);
+}
+.but:hover{
+    background-color: brown;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#mag{
+    height: 30px;
+    width: 2%;
+    position: absolute;
+    top: 50px;
+    left: 1193px;
 }
 .searchbar{
-    margin-left:auto;
+    display:flex;
+    flex-wrap:wrap;
+    height:10%;
+    width:50%;
 }
 .element{
     width: 10px;
     height: 50px;
 }
-.search{
-    border: none;
-    padding: 0px 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    color: black;
+.tcontainer{
+    display:flex;
+    height:57vh;
+    width:105vh;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
 }
-.search:focus{
-    outline:none; 
+.tile1{
+    border:2px solid black;
+    border-radius: 5vh;
+    background-color: white;
+    height:17vh;
+    width:18vh;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top:40vh;
+    left:120vh;
+    padding:17px 0px 0px 19px;
+    transition-duration: 500ms;
 }
-.material-icons{
-    font-size: 20px ;
-    color: black;
+.tile1:hover{
+    transform: scale(1.2);
 }
-/*ANIMATION*/
-*,
-*:before,
-*:after{
-    font-size: 45px;
-    font-weight: 500;
+.tile2{
+    border:2px solid black;
+    border-radius: 5vh;
+    background-color: white;
+    height:17vh;
+    width:18vh;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top:40vh;
+    left:146vh;
+    padding:11px 0px 0px 21px;
+    transition-duration: 500ms;
 }
-.wrapper{
-    height: 200px;
-    padding: 100px 30px;
-    display: flex;
+.tile2:hover{
+    transform: scale(1.2);
 }
-.words{
-    overflow: hidden;
+.tile3{
+    border:2px solid black;
+    border-radius: 4vh;
+    background-color: white;
+    height:17vh;
+    width:18vh;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top:64vh;
+    left:120vh;
+    padding:15px 0px 0px 5px;
+    transition-duration: 500ms;
 }
-span{
-     display: block;
-     height: 100%;
-     padding-left: 10px;
-     color: red;
-     animation: spin_words 6s 2s infinite;
+.tile3:hover{
+    transform: scale(1.2);
 }
-@keyframes spin_words {
-    50%{
-        transform: translateY(-100%);
-    }
-    100%{
-        transform: translateY(150%);
-    }
+.tile4{
+    border:2px solid black;
+    border-radius: 5vh;
+    background-color: white;
+    height:17vh;
+    width:18vh;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top:64vh;
+    left:146vh;
+    padding:15px 0px 0px 18px;
+    transition-duration: 500ms;
+}
+.tile4:hover{
+    transform: scale(1.2);
+}
+#stlogo{
+    height:7vh;
+    width:7vh;
+    margin:7px 13px;
+}
+#mflogo{
+    height:6vh;
+    width:6vh;
+    margin:1px 24px;
+}
+#pflogo{
+    height:9vh;
+    width:9vh;
+    margin:3px 27px;
+}
+#prlogo{
+    height:8vh;
+    width:8vh;
+    margin:5px 18px;
+}
+.second{
+    background:url("Images/first\ \(2\).jpg")
 }
