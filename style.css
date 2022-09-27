@@ -79,16 +79,17 @@
     margin:0px 0px 0px 0px;
 }
 .tile1{
+    display:flex;
     border:2px solid black;
     border-radius: 5vh;
     background-color: white;
     height:17vh;
-    width:18vh;
+    width:27vh;
     font-size: 26px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position:absolute;
     top:40vh;
-    left:120vh;
+    left:112vh;
     padding:17px 0px 0px 19px;
     transition-duration: 500ms;
 }
@@ -100,30 +101,30 @@
     border-radius: 5vh;
     background-color: white;
     height:17vh;
-    width:18vh;
+    width:27vh;
     font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position:absolute;
     top:40vh;
     left:146vh;
-    padding:11px 0px 0px 21px;
+    padding:11px 0px 0px 16px;
     transition-duration: 500ms;
 }
 .tile2:hover{
     transform: scale(1.2);
 }
 .tile3{
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 4vh;
     background-color: white;
-    height:17vh;
-    width:18vh;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position:absolute;
-    top:64vh;
-    left:120vh;
-    padding:15px 0px 0px 5px;
+    height: 17vh;
+    width: 27vh;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 64vh;
+    left: 112vh;
+    padding: 13px 0px 0px 1px;
     transition-duration: 500ms;
 }
 .tile3:hover{
@@ -134,13 +135,13 @@
     border-radius: 5vh;
     background-color: white;
     height:17vh;
-    width:18vh;
+    width:27vh;
     font-size: 26px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position:absolute;
     top:64vh;
     left:146vh;
-    padding:15px 0px 0px 18px;
+    padding: 12px 0px 0px 12px;
     transition-duration: 500ms;
 }
 .tile4:hover{
@@ -149,23 +150,78 @@
 #stlogo{
     height:7vh;
     width:7vh;
-    margin:7px 13px;
+    margin:7px 13px 0px 0px;
 }
 #mflogo{
-    height:6vh;
-    width:6vh;
-    margin:1px 24px;
+    height: 6vh;
+    width: 6vh;
+    margin: -3px 25px 0px 0px;
 }
 #pflogo{
     height:9vh;
     width:9vh;
-    margin:3px 27px;
+    margin:3px 27px 0px 0px;
 }
 #prlogo{
     height:8vh;
     width:8vh;
-    margin:5px 18px;
+    margin:5px 18px 1px 2px;
 }
 .second{
-    background:url("Images/first\ \(2\).jpg")
+    background:url("Images/first\ \(5\).jpg");
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
+.slide-container{
+    height:100vh;
+    width:100vh;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+.card{
+    height: 70vh;
+    width: 50vh;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 0px 0px 0px 0px;
+    margin: 124px 0px 0px 71px;
+    background-color:white;
+}
+.dp{
+    height: 20vh;
+    width: 19vh;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: -1px 0px 0px 0px;
+    margin: 32px 0px 0px 92px;
+}
+.rcorner{
+    height:6vh;
+    width:7vh;
+    position: relative;
+    top:0vh;
+    left:43vh;
+    background-color: white;
+    border:2px solid white;
+    border-top-right-radius: 2px;
+}
+.name{
+    font-size: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 0px 0px 0px;
+}
+.top{
+    background-color: #4070F4;
+    border: 2px solid #4070F4;
+    border-radius: 0px 0px 0px 59px;
+    height: 30vh;
+    width: 50vh;
+}
+.para{
+    background-color:white;
+    height: 6vh;
+    width: 50vh;
+    border: 2px solid white;
+    border-radius: 0px 96px 0px 59px;
 }
