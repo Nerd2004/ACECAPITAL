@@ -8,6 +8,8 @@
 .logonamesearch{
     display:flex;
     flex-wrap:wrap;
+    height:30vh;
+    width:100%;
 }
 #logo{
     padding: 2px 0vh 0vh 2vh;
@@ -16,19 +18,28 @@
 .logoname{
     display:flex;
     flex-wrap:wrap;
+    height:29vh;
+    width:50vh;
 }
 #name{
-   padding:5vh 0vh;
-   margin:0px;
    font-family: monospace;
-   font-size:35px;
+   font-size:40px;
+   padding:37px 0px 0px 0px;
 }
 .first{
+    display:flex;
     background:url("Images/Yellow\ \ Modern\ Webinar\ Facebook\ Post.png");
     background-size: cover;
     height:100vh;
     width:100%;
 }
+/* .searchbar{
+justify-content: flex-end;
+height:7%;
+width:9%;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+} */
 .sb {
     padding: 9px;
     margin:-46px 0px;
@@ -73,25 +84,55 @@
 }
 .tcontainer{
     display:flex;
-    height:57vh;
+    height:50vh;
     width:105vh;
     padding:0px 0px 0px 0px;
     margin:0px 0px 0px 0px;
+    position: relative;
+    top:37vh;
+    left:-11vh;
 }
 .tile1{
-    display:flex;
     border:2px solid black;
     border-radius: 5vh;
     background-color: white;
     height:17vh;
     width:27vh;
+    margin:0px 0px 40px 0px;
+    /* position:absolute;
+    top:40vh;
+    left:112vh; */
+    transition-duration: 500ms;
+}
+.upper{
+    padding:34px 34px 0px 20px;
+    margin:0px 0px 0px 0px;
+}
+.lower{
+    padding:34px 34px 0px 20px;
+    margin:0px 0px 0px 0px;
+}
+.s{
     font-size: 26px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position:absolute;
-    top:40vh;
-    left:112vh;
-    padding:17px 0px 0px 19px;
-    transition-duration: 500ms;
+    margin:15px 0px 0px 51px;
+    padding:0px 0px 0px 0px;
+}
+.m{
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:14px 0px 0px 9px;
+    padding:0px 0px 0px 0px;
+}
+.po{
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 9px 0px 0px 32px;
+}
+.pr{
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 9px 0px 0px 45px;
 }
 .tile1:hover{
     transform: scale(1.2);
@@ -102,12 +143,11 @@
     background-color: white;
     height:17vh;
     width:27vh;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position:absolute;
+    margin:0px 0px 0px 0px;
+    /* position:absolute;
     top:40vh;
     left:146vh;
-    padding:11px 0px 0px 16px;
+    padding:11px 0px 0px 16px; */
     transition-duration: 500ms;
 }
 .tile2:hover{
@@ -119,12 +159,10 @@
     background-color: white;
     height: 17vh;
     width: 27vh;
-    font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
+    margin:0px 0px 40px 0px;
+    /* position: absolute;
     top: 64vh;
-    left: 112vh;
-    padding: 13px 0px 0px 1px;
+    left: 112vh; */
     transition-duration: 500ms;
 }
 .tile3:hover{
@@ -136,12 +174,10 @@
     background-color: white;
     height:17vh;
     width:27vh;
-    font-size: 26px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position:absolute;
+    margin:0px 0px 0px 0px;
+    /* position:absolute;
     top:64vh;
-    left:146vh;
-    padding: 12px 0px 0px 12px;
+    left:146vh; */
     transition-duration: 500ms;
 }
 .tile4:hover{
@@ -150,43 +186,75 @@
 #stlogo{
     height:7vh;
     width:7vh;
-    margin:7px 13px 0px 0px;
+    margin: 9px 0px 0px 65px;
 }
 #mflogo{
-    height: 6vh;
-    width: 6vh;
-    margin: -3px 25px 0px 0px;
+    height: 7vh;
+    width: 7vh;
+    margin: 11px 0px 0px 75px;
 }
 #pflogo{
     height:9vh;
     width:9vh;
-    margin:3px 27px 0px 0px;
+    margin: 9px 0px 0px 65px;
 }
 #prlogo{
     height:8vh;
     width:8vh;
-    margin:5px 18px 1px 2px;
+    margin: 9px 0px 0px 65px;
 }
 .second{
-    background:url("Images/first\ \(5\).jpg");
+    background:url("Images/yellow\ black\ simple\ online\ webinar\ template.jpg");
     background-size: cover;
     height:100vh;
     width:100%;
 }
 .slide-container{
+    display:flex;
     height:100vh;
-    width:100vh;
+    width:auto;
     padding:0px 0px 0px 0px;
     margin:0px 0px 0px 0px;
+    overflow-x: visible;
 }
-.card{
-    height: 70vh;
+.card1{
+    height: 65vh;
     width: 50vh;
     border: 2px solid black;
-    border-radius: 35px;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     padding: 0px 0px 0px 0px;
-    margin: 124px 0px 0px 71px;
-    background-color:white;
+    margin: 122px 0px 0px 70px;
+    background-color: white;
+}
+.card2{
+    height: 65vh;
+    width: 50vh;
+    border: 2px solid black;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 0px 0px 0px 0px;
+    margin: 122px 0px 0px 70px;
+    background-color: white;
+}
+.card3{
+    height: 65vh;
+    width: 50vh;
+    border: 2px solid black;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 0px 0px 0px 0px;
+    margin: 122px 0px 0px 70px;
+    background-color: white;
 }
 .dp{
     height: 20vh;
@@ -194,34 +262,59 @@
     border: 2px solid black;
     border-radius: 100px;
     padding: -1px 0px 0px 0px;
-    margin: 32px 0px 0px 92px;
+    margin: 32px 0px 0px 115px;
 }
-.rcorner{
+.rcorner1{
     height:6vh;
     width:7vh;
     position: relative;
-    top:0vh;
+    top:-7vh;
     left:43vh;
-    background-color: white;
-    border:2px solid white;
+    background-color: #4070F4;
     border-top-right-radius: 2px;
 }
-.name{
-    font-size: 4px;
+.rcorner2{
+    height: 6vh;
+    width: 7vh;
+    position: relative;
+    top: -13vh;
+    left: 43vh;
+    background-color: white;
+    border: 2px solid white;
+    border-top-right-radius: 33px;
+}
+.names{
+    font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
-    margin:0px 0px 0px 0px;
+    margin: 0px 0px 0px 93px;
+    height: 7vh;
+    width: 30vh;
+}
+.nameh{
+    display:flexbox;
+    margin: 0px 0px 0px 0px;
+    height: 6vh;
+    width: 50vh;
+    overflow-y: hidden;
+}
+.star{
+    height: 4vh;
+    width: 22vh;
+    margin: -9px 101px;
 }
 .top{
     background-color: #4070F4;
     border: 2px solid #4070F4;
-    border-radius: 0px 0px 0px 59px;
+    border-radius: 0px 0px 0px 30px;
     height: 30vh;
     width: 50vh;
 }
 .para{
-    background-color:white;
-    height: 6vh;
+    background-color: white;
+    height: 24vh;
     width: 50vh;
     border: 2px solid white;
-    border-radius: 0px 96px 0px 59px;
+    padding: 0px 25px;
+    font-size:27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
