@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" width="width-display initial-scale=1.0">
     <title>ACECAPITAL</title>
+    <link rel=”stylesheet” type=”text/css” href=”csvtable.css” title=”style” /> <script type=”text/javascript” src=”js/jquery-1.4.2.min.js”></script> <script type=”text/javascript” src=”js/jquery.csvToTable.js”></script> <script type=”text/javascript” src=”js/jquery.tablesorter.dev.js”></script>
 </head>
 <body>
     <div class="first">
@@ -97,5 +98,13 @@
             </div>
         </div>
     </section>
+    <div id="CSVSource">
+    </div>
+    <div id="CSVTable">
+    </div>
+    <input type="file" id="csvFileInput" style="padding-bottom: 15px">
+        <table id="csvRoot"></table>
+      
+      <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
 </body>
 </html>
