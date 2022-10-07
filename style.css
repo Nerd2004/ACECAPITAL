@@ -103,6 +103,7 @@ margin:0px 0px 0px 0px;
     top:40vh;
     left:112vh; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .upper{
     padding:34px 34px 0px 20px;
@@ -149,6 +150,7 @@ margin:0px 0px 0px 0px;
     left:146vh;
     padding:11px 0px 0px 16px; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .tile2:hover{
     transform: scale(1.2);
@@ -164,6 +166,7 @@ margin:0px 0px 0px 0px;
     top: 64vh;
     left: 112vh; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .tile3:hover{
     transform: scale(1.2);
@@ -179,6 +182,7 @@ margin:0px 0px 0px 0px;
     top:64vh;
     left:146vh; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .tile4:hover{
     transform: scale(1.2);
@@ -204,6 +208,39 @@ margin:0px 0px 0px 0px;
     margin: 9px 0px 0px 65px;
 }
 .second{
+    background:url("Images/Black\ Bold\ Tech\ Tech\ Personal\ Website.png");
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    display: flex;
+    overflow-y: hidden;
+}
+#tag{
+    display:flexbox;
+    position:relative;
+    width:50%;
+    top:20%;
+    left:0%;
+}
+#txt1{
+    font-size: 10vh;
+    position: relative;
+    top: 6vh;
+    left: 7vh;
+    height: 14%;
+    width: 26%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#txt2{
+    font-size: 8vh;
+    position: relative;
+    top: 31vh;
+    left: -31vh;
+    height: 43%;
+    width: 27%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.third{
     background:url("Images/yellow\ black\ simple\ online\ webinar\ template.jpg");
     background-size: cover;
     height:100vh;
