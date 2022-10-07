@@ -8,7 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" width="width-display initial-scale=1.0">
     <title>ACECAPITAL</title>
-    <link rel=”stylesheet” type=”text/css” href=”csvtable.css” title=”style” /> <script type=”text/javascript” src=”js/jquery-1.4.2.min.js”></script> <script type=”text/javascript” src=”js/jquery.csvToTable.js”></script> <script type=”text/javascript” src=”js/jquery.tablesorter.dev.js”></script>
+    <link rel=”stylesheet” type=”text/css” href=”csvtable.css” title=”style” />
+     <script type=”text/javascript” src=”js/jquery-1.4.2.min.js”></script> 
+     <script type=”text/javascript” src=”js/jquery.csvToTable.js”></script> 
+     <script type=”text/javascript” src=”js/jquery.tablesorter.dev.js”></script>
 </head>
 <body>
     <div class="first">
@@ -46,10 +49,52 @@
         </div>
     </div>
 </div>
-    <section class="second">
+<div class="second">
+    <div id="tag">
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script src="rotation.js"></script>
+        <script>
+        
+        $(document).ready(function(){
+            var entries=[
+                {label:'TATA'},
+                {label:'RELIANCE'},
+                {label:'HDFC'},
+                {label:'INFOSYS'},
+                {label:'ICICI'},
+                {label:'HUL'},
+                {label:'SBI'},
+                {label:'BAJAJ'},
+                {label:'AIRTEL'},
+                {label:'ADANI'},
+            ];
+            var settings={
+                entries:entries,
+                width:640,
+                height:480,
+                radius:'65%',
+                radiusMin:75,
+                bgDraw:true,
+                opacitySpeed:6,
+                fov:800,
+                speed:2,
+                fontFamily:'Courier,Arial,sans-serif',
+                fontSize:'30',
+                fontColor:'#f00',
+                fontWeight:'bold',
+                fontStyle:'normal',
+                fontSretch:'normal',
+                fontToUppercase:true,
+            };
+            $('#tag').svg3DTagCloud(settings);
+        });
+        </script>
+    </div>
+</div>
+    <div class="third">
         <div class="slide-container">
             <div class="card1">
-                <div class="top"><img src="Images\people\WhatsApp Image 2022-09-23 at 10.04.23 AM.jpeg" class="dp">
+                <div class="top"><img src="Images/people/vivek.jpeg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Vivek Tiwari
@@ -65,7 +110,7 @@
                 <img src="Images/rating.png" class="star">
             </div>
             <div class="card2">
-                <div class="top"><img src="Images\people\WhatsApp Image 2022-09-23 at 10.04.23 AM.jpeg" class="dp">
+                <div class="top"><img src="Images/people/suraj.jpeg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Suraj Prajapati
@@ -81,7 +126,7 @@
                 <img src="Images/rating.png" class="star">
             </div>
             <div class="card3">
-                <div class="top"><img src="Images\people\WhatsApp Image 2022-09-23 at 10.04.23 AM.jpeg" class="dp">
+                <div class="top"><img src="Images/people/jagjeet.jpeg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Jagjeet Sappal
@@ -92,12 +137,12 @@
                 </div>
             </div>
                 <p class="para">
-                    Bhai kya website hai maza aa gya dekh ke 
+                  This website helped me a lot in making my first ever Investment portfolio
                 </p>
                 <img src="Images/rating.png" class="star">
             </div>
         </div>
-    </section>
+    </div>
     <div id="CSVSource">
     </div>
     <div id="CSVTable">
