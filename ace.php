@@ -38,8 +38,8 @@
    </div>
     <div class="tcontainer">
         <div class="upper">
-        <div class="tile1">
-            <a href="final.php">
+        <div class="tile1" onclick="document.location='final.php'">
+<!--             <a href="final.php"> -->
             <p class="s">STOCKS</p>
             <img src="Images\money-graph-with-up-arrow.png" id="stlogo">
         </a>
