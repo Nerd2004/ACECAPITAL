@@ -350,3 +350,28 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 0px 96px 0px 59px;
 }
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(174, 167, 167);
+    }
+    a:visited{
+    color: white;
+    }
+    .about{
+    height: 50vh;
+    box-sizing: border-box;
+    color: white;
+    padding: 15px 20px;
+    background-color: black ;
+    }
+    .about li{
+        padding: 15px 15px;
+    }
+    .contact{
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
