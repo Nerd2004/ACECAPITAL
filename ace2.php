@@ -23,16 +23,14 @@
         <div class="searchbar">
         <input type="text" placeholder="Search Stocks" class="sb">
         <img src="Images/magnifier.png" id="mag">
-        <input type="submit" value="Sign In/Register" class="but">
+       <!-- <input type="submit" value="Sign In/Register" class="but" onclick="document.location='register.php'"> -->
         </div>
    </div>
     <div class="tcontainer">
         <div class="upper">
         <div class="tile1">
-            <a href="final.php">
             <p class="s">STOCKS</p>
             <img src="Images\money-graph-with-up-arrow.png" id="stlogo">
-        </a>
         </div>
         <div class="tile2">
             <p class="m">MUTUAL FUNDS</p>
