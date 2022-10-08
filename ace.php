@@ -33,7 +33,7 @@
         <div class="searchbar">
         <input type="text" placeholder="Search Stocks" class="sb">
         <img src="Images/magnifier.png" id="mag">
-        <input type="submit" value="Sign In/Register" class="but">
+        <input type="submit" value="Sign In/Register" class="but" onclick="document.location='register.php'">
         </div>
    </div>
     <div class="tcontainer">
