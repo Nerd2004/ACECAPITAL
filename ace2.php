@@ -155,5 +155,19 @@
             </div>
         </div>
     </div>
+    <div class="about">
+ <h1 style="text-align:center;"><b>ABOUT US</b></h1>
+ <ul>
+ <li><a href="T&C.html" target="_self">TERMS AND CONDITION</a></li>
+ <li><a href="pp.html"target="_self">PRIVACY POLICY</a></li>
+ <li><a href="FAQ.html"target="_self">F.A.Q.s</a></li>
+ <li>CONTACT US</li>
+ </ul>
+ <div class="contact">
+ <a href="#" style="padding:0px 8px ;"><i class="fab fa-facebook-f"></i></a>
+ <a href="#"style="padding:0px 8px;"><i class="fa-regular fa-envelope"></i></a>
+ <a href="#"style="padding:0px 8px;"><i class="fa-brands fa-square-twitter"></i></a>
+ </div>
+ </div>
 </body>
 </html>
