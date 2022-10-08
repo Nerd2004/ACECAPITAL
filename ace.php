@@ -22,6 +22,7 @@
      <script type=”text/javascript” src=”js/jquery-1.4.2.min.js”></script> 
      <script type=”text/javascript” src=”js/jquery.csvToTable.js”></script> 
      <script type=”text/javascript” src=”js/jquery.tablesorter.dev.js”></script>
+    <script src="https://kit.fontawesome.com/0a9cab79ad.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="first">
