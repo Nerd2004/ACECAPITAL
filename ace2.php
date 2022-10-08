@@ -23,18 +23,20 @@
         <div class="searchbar">
         <input type="text" placeholder="Search Stocks" class="sb">
         <img src="Images/magnifier.png" id="mag">
-       <!-- <input type="submit" value="Sign In/Register" class="but" onclick="document.location='register.php'"> -->
+        <!--<input type="submit" value="Sign In/Register" class="but">-->
         </div>
    </div>
     <div class="tcontainer">
         <div class="upper">
         <div class="tile1">
+            <a href="final.php">
             <p class="s">STOCKS</p>
             <img src="Images\money-graph-with-up-arrow.png" id="stlogo">
+        </a>
         </div>
         <div class="tile2">
-            <p class="m">MUTUAL FUNDS</p>
-            <img src="Images/money-bag.png" id="mflogo">
+            <p class="m">US STOCKS</p>
+            <img src="Images/dollar-sign-16975.png" id="mflogo">
         </div>
         </div>
         <div class="lower">
@@ -90,8 +92,18 @@
         });
         </script>
     </div>
+    <div id="txt1">
+        <p style="color:antiquewhite">INVEST IN</p>
+    </div>
+    <div id="txt2">
+        <p style="color:aqua">BEST COMPANIES OF INDIA & US</p>
+    </div>
 </div>
     <div class="third">
+        <div class="rev">
+            <p>Hear Out Our Users</p>
+        </div>
+
         <div class="slide-container">
             <div class="card1">
                 <div class="top"><img src="Images/people/vivek.jpeg" class="dp">
@@ -110,7 +122,7 @@
                 <img src="Images/rating.png" class="star">
             </div>
             <div class="card2">
-                <div class="top"><img src="Images/people/suraj.jpeg" class="dp">
+                <div class="top"><img src="Images/people/suraj.jpg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Suraj Prajapati
@@ -126,7 +138,7 @@
                 <img src="Images/rating.png" class="star">
             </div>
             <div class="card3">
-                <div class="top"><img src="Images/people/jagjeet.jpeg" class="dp">
+                <div class="top"><img src="Images/people/jagjeet.jpg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Jagjeet Sappal
@@ -143,13 +155,5 @@
             </div>
         </div>
     </div>
-    <div id="CSVSource">
-    </div>
-    <div id="CSVTable">
-    </div>
-    <input type="file" id="csvFileInput" style="padding-bottom: 15px">
-        <table id="csvRoot"></table>
-      
-      <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
 </body>
 </html>
