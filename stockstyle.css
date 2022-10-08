@@ -1,0 +1,11 @@
+#logo{
+    height: 50px;
+}
+
+.img{
+    display: flex;
+}
+
+body{
+    background-color: navajowhite;
+}
