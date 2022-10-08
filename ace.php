@@ -44,7 +44,7 @@
             <img src="Images\money-graph-with-up-arrow.png" id="stlogo">
         </a>
         </div>
-        <div class="tile2">
+        <div class="tile2" onclick="document.location='usstock.php'">
             <p class="m">US STOCKS</p>
             <img src="Images/dollar-sign-16975.png" id="mflogo">
         </div>
