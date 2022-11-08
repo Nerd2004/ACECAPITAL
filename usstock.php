@@ -12,7 +12,7 @@
        All the values of Price,Open,High,Low and Previous Close are in USD
     </div>
 </head>
-<body>
+<body class="page">
 <div class="img">
   <img src="Images/newlogo.png" alt="" id="logo">
   <h3>ACECAPITAL</h3>
@@ -43,7 +43,6 @@ if(isset($result['Global Quote']))
 }
 echo "</table>";
 ?>
-
 <style>
 #customers {
   font-family: Arial, Helvetica, sans-serif;

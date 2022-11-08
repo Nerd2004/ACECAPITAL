@@ -9,12 +9,11 @@
 
     <title>Document</title>
 </head>
-<body>
-  <div class="img">
-  <img src="Images/newlogo.png" alt="" id="logo">
-  <h3>ACECAPITAL</h3>
-  </div>
-  
+<body class="page">
+<div class="img">
+        <img src="Images/newlogo.png" alt="" id="logo">
+        <h3>ACECAPITAL</h3>
+        </div>
     <?php
 $stocks=array("JSWSTEEL.BSE","COALINDIA.BSE","HINDALCO.BSE","TATASTEEL.BSE","AIRTEL.BSE");
 
@@ -110,5 +109,6 @@ echo '</div>';
 }
 </style>
 <a href="new.php">More...</a>
+</div>
 </body>
 </html>

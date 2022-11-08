@@ -33,6 +33,11 @@
     height:100vh;
     width:100%;
 }
+.page{
+    background:url("Images/Blue\ Yellow\ Modern\ Webinar\ Facebook\ Post.png");
+    background-size: cover;
+    color:white;
+}
 .sb {
     padding: 9px;
     margin:-46px 0px;

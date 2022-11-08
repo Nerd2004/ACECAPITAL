@@ -9,7 +9,7 @@
   <title>ACECAPITAL</title>
   <link rel="stylesheet" href="stockstyle.css">
 </head>
-<body>
+<body class="page">
 <div class="img">
   <img src="Images/newlogo.png" alt="" id="logo">
   <h3>ACECAPITAL</h3>
@@ -42,7 +42,6 @@ else{
 }
 echo "</table>";
 ?>
-
 <style>
 #customers {
   font-family: Arial, Helvetica, sans-serif;

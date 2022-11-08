@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
     session_start();
 
@@ -6,7 +6,7 @@
         header("Location: login.php");
     }
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
