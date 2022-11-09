@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
     session_start();
 
@@ -6,7 +6,7 @@
         header("Location: login.php");
     }
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +22,7 @@
      <script type=”text/javascript” src=”js/jquery-1.4.2.min.js”></script> 
      <script type=”text/javascript” src=”js/jquery.csvToTable.js”></script> 
      <script type=”text/javascript” src=”js/jquery.tablesorter.dev.js”></script>
+    <script src="https://kit.fontawesome.com/0a9cab79ad.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="first">
@@ -38,13 +39,15 @@
    </div>
     <div class="tcontainer">
         <div class="upper">
-        <div class="tile1">
+        <div class="tile1" onclick="document.location='final.php'">
+<!--             <a href="final.php"> -->
             <p class="s">STOCKS</p>
             <img src="Images\money-graph-with-up-arrow.png" id="stlogo">
+        </a>
         </div>
-        <div class="tile2">
-            <p class="m">MUTUAL FUNDS</p>
-            <img src="Images/money-bag.png" id="mflogo">
+        <div class="tile2" onclick="document.location='usstock.php'">
+            <p class="m">US STOCKS</p>
+            <img src="Images/dollar-sign-16975.png" id="mflogo">
         </div>
         </div>
         <div class="lower">
@@ -100,8 +103,18 @@
         });
         </script>
     </div>
+    <div id="txt1">
+        <p style="color:antiquewhite">INVEST IN</p>
+    </div>
+    <div id="txt2">
+        <p style="color:aqua">BEST COMPANIES OF INDIA & US</p>
+    </div>
 </div>
     <div class="third">
+        <div class="rev">
+            <p>Hear Out Our Users</p>
+        </div>
+
         <div class="slide-container">
             <div class="card1">
                 <div class="top"><img src="Images/people/vivek.jpeg" class="dp">
@@ -120,7 +133,7 @@
                 <img src="Images/rating.png" class="star">
             </div>
             <div class="card2">
-                <div class="top"><img src="Images/people/suraj.jpeg" class="dp">
+                <div class="top"><img src="Images/people/suraj.jpg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Suraj Prajapati
@@ -136,7 +149,7 @@
                 <img src="Images/rating.png" class="star">
             </div>
             <div class="card3">
-                <div class="top"><img src="Images/people/jagjeet.jpeg" class="dp">
+                <div class="top"><img src="Images/people/jagjeet.jpg" class="dp">
                 </div>
                 <div class="nameh">
                 <p class="names">Jagjeet Sappal
@@ -153,13 +166,19 @@
             </div>
         </div>
     </div>
-    <div id="CSVSource">
-    </div>
-    <div id="CSVTable">
-    </div>
-    <input type="file" id="csvFileInput" style="padding-bottom: 15px">
-        <table id="csvRoot"></table>
-      
-      <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
+    <div class="about">
+ <h1 style="text-align:center;"><b>ABOUT US</b></h1>
+ <ul>
+ <li><a href="T&C.html" target="_self">TERMS AND CONDITION</a></li>
+ <li><a href="pp.html"target="_self">PRIVACY POLICY</a></li>
+ <li><a href="FAQ.html"target="_self">F.A.Q.s</a></li>
+ <li>CONTACT US</li>
+ </ul>
+ <div class="contact">
+ <a href="#" style="padding:0px 8px ;"><i class="fab fa-facebook-f"></i></a>
+ <a href="#"style="padding:0px 8px;"><i class="fa-regular fa-envelope"></i></a>
+ <a href="#"style="padding:0px 8px;"><i class="fa-brands fa-square-twitter"></i></a>
+ </div>
+ </div>
 </body>
 </html>
