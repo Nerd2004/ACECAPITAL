@@ -4,22 +4,28 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
 .logonamesearch{
     display:flex;
     flex-wrap:wrap;
     height:30vh;
     width:100%;
 }
+.bdy{
+    background:url("Images/Untitled\ design.png");
+    background-size: cover;
+}
 #logo{
     padding: 2px 0vh 0vh 2vh;
     height: 17vh;
 }
 .logoname{
-    display:flex;
-    flex-wrap:wrap;
-    height:29vh;
-    width:50vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: 29vh;
+    width: 50vh;
+    position: relative;
+    top: 1vh;
+    left: 67vh;
 }
 #name{
    font-family: monospace;
@@ -27,19 +33,22 @@
    padding:37px 0px 0px 0px;
 }
 .first{
-    display:flex;
-    background:url("Images/Yellow\ \ Modern\ Webinar\ Facebook\ Post.png");
+    /* display:flex; */
+    /* background:url("Images/Yellow\ \ Modern\ Webinar\ Facebook\ Post.png"); */
     background-size: cover;
     height:100vh;
     width:100%;
+    overflow-y: hidden;
 }
-/* .searchbar{
-justify-content: flex-end;
-height:7%;
-width:9%;
-padding:0px 0px 0px 0px;
-margin:0px 0px 0px 0px;
-} */
+.start{
+    position: relative;
+    top: -34vh;
+    left: 39vh;
+    color: white;
+    font-family:'Acme', sans-serif;;
+    font-size: 8vh;
+    width: 45vh;
+}
 .sb {
     padding: 9px;
     margin:-46px 0px;
@@ -83,14 +92,14 @@ margin:0px 0px 0px 0px;
     height: 50px;
 }
 .tcontainer{
-    display:flex;
-    height:50vh;
-    width:105vh;
-    padding:0px 0px 0px 0px;
-    margin:0px 0px 0px 0px;
+    display: flex;
+    height: 50vh;
+    width: 105vh;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     position: relative;
-    top:37vh;
-    left:-11vh;
+    top: 10vh;
+    left: 127vh;
 }
 .tile1{
     border:2px solid black;
@@ -99,10 +108,8 @@ margin:0px 0px 0px 0px;
     height:17vh;
     width:27vh;
     margin:0px 0px 40px 0px;
-    /* position:absolute;
-    top:40vh;
-    left:112vh; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .upper{
     padding:34px 34px 0px 20px;
@@ -119,10 +126,10 @@ margin:0px 0px 0px 0px;
     padding:0px 0px 0px 0px;
 }
 .m{
-    font-size: 26px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:14px 0px 0px 9px;
-    padding:0px 0px 0px 0px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 14px 0px 0px 23px;
+    padding: 0px 0px 0px 0px;
 }
 .po{
     font-size: 26px;
@@ -134,6 +141,15 @@ margin:0px 0px 0px 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 9px 0px 0px 45px;
 }
+.rev{
+    font-size: 8vh;
+    position: relative;
+    top: 1vh;
+    left: 60vh;
+    height: 14%;
+    width: 38%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .tile1:hover{
     transform: scale(1.2);
 }
@@ -144,11 +160,8 @@ margin:0px 0px 0px 0px;
     height:17vh;
     width:27vh;
     margin:0px 0px 0px 0px;
-    /* position:absolute;
-    top:40vh;
-    left:146vh;
-    padding:11px 0px 0px 16px; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .tile2:hover{
     transform: scale(1.2);
@@ -160,10 +173,8 @@ margin:0px 0px 0px 0px;
     height: 17vh;
     width: 27vh;
     margin:0px 0px 40px 0px;
-    /* position: absolute;
-    top: 64vh;
-    left: 112vh; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .tile3:hover{
     transform: scale(1.2);
@@ -175,10 +186,8 @@ margin:0px 0px 0px 0px;
     height:17vh;
     width:27vh;
     margin:0px 0px 0px 0px;
-    /* position:absolute;
-    top:64vh;
-    left:146vh; */
     transition-duration: 500ms;
+    overflow-y: hidden;
 }
 .tile4:hover{
     transform: scale(1.2);
@@ -204,23 +213,61 @@ margin:0px 0px 0px 0px;
     margin: 9px 0px 0px 65px;
 }
 .second{
-    background:url("Images/yellow\ black\ simple\ online\ webinar\ template.jpg");
+    background:url("Images/Black\ Bold\ Tech\ Tech\ Personal\ Website.png");
     background-size: cover;
     height:100vh;
     width:100%;
+    display: flex;
+    overflow-y: hidden;
+}
+#tag{
+    display:flexbox;
+    position:relative;
+    width:50%;
+    top:20%;
+    left:0%;
+}
+#txt1{
+    font-size: 11vh;
+    position: relative;
+    top: 6vh;
+    left: 7vh;
+    height: 14%;
+    width: 30%;
+    font-family: 'Ubuntu', sans-serif;
+}
+#txt2{
+    font-size: 8vh;
+    position: relative;
+    top: 31vh;
+    left: -31vh;
+    height: 43%;
+    width: 27%;
+    font-family: 'Acme', sans-serif;
+}
+.third{
+    /* background:url("Images/y.png"); */
+    background-size: cover;
+    height:128vh;
+    width:100%;
+    overflow-y: hidden;
 }
 .slide-container{
-    display:flex;
-    height:100vh;
-    width:auto;
-    padding:0px 0px 0px 0px;
-    margin:0px 0px 0px 0px;
+    display: flex;
+    height: 89vh;
+    width: auto;
+    position: relative;
+    top: 2vh;
+    left: 1vh;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     overflow-x: visible;
 }
 .card1{
     height: 65vh;
     width: 50vh;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -233,7 +280,7 @@ margin:0px 0px 0px 0px;
 .card2{
     height: 65vh;
     width: 50vh;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -246,7 +293,7 @@ margin:0px 0px 0px 0px;
 .card3{
     height: 65vh;
     width: 50vh;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -319,27 +366,28 @@ margin:0px 0px 0px 0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 0px 96px 0px 59px;
 }
-table {
-    border-collapse: collapse;
-    border-radius: 5px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  th {
-    background: #009578;
-    color: #ffffff;
-    text-align: left;
-  }
-  
-  th,
-  td {
-    padding: 10px 20px;
-  }
-  
-  tr:nth-child(even) {
-    background: #eeeeee;
-  }
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(174, 167, 167);
+    }
+    a:visited{
+    color: white;
+    }
+    .about{
+    height: 50vh;
+    box-sizing: border-box;
+    color: white;
+    padding: 15px 20px;
+    /* background-color: black ; */
+    }
+    .about li{
+        padding: 15px 15px;
+    }
+    .contact{
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
