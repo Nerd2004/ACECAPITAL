@@ -34,7 +34,7 @@
             <img src="Images\money-graph-with-up-arrow.png" id="stlogo">
         </a>
         </div>
-        <div class="tile2" "document.location='usstock.php'">
+        <div class="tile2" onclick="document.location='template.php'">
             <p class="m">US STOCKS</p>
             <img src="Images/dollar-sign-16975.png" id="mflogo">
         </div>
@@ -169,5 +169,6 @@
  <a href="#"style="padding:0px 8px;"><i class="fa-brands fa-square-twitter"></i></a>
  </div>
  </div>
+ 
 </body>
 </html>
